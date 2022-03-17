@@ -1,0 +1,5 @@
+.right_side {
+    background-color: red;
+    margin-left: 40px;
+    flex: 1;
+}

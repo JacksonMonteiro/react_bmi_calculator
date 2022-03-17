@@ -1,0 +1,5 @@
+.left_side {
+    margin-right: 40px;
+    background-color: green;
+    flex: 1;
+}
