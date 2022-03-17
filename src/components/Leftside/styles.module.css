@@ -1,5 +1,43 @@
 .left_side {
     margin-right: 40px;
-    background-color: green;
     flex: 1;
+}
+
+.left_side h1 {
+    margin: 0;
+    font-size: 40px;
+    color: #3a4b5c;
+}
+
+.left_side p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #6A7D8B;
+}
+
+.left_side input {
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid rgba(150, 163, 171, .5);
+    padding: 10px 2px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    outline:0;
+}
+
+.left_side button {
+    background-color: #227C9D;
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+    border-radius: 10px;
+    padding: 15px 0;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: all ease .3s;
+}
+
+.left_side button:hover {
+    opacity: .8;
 }
