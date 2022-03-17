@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import styles from './styles.module.css';
 
+import { levels, calculate } from '../../helpers/imc';
+
 const LeftSide = () => {
     const [heightField, setHeightField] = useState<number>(0);
     const [weightField, setWeightField] = useState<number>(0);
