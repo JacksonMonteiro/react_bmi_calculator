@@ -26,6 +26,10 @@
     outline:0;
 }
 
+.left_side input:disabled {
+    opacity: .5;
+}
+
 .left_side button {
     background-color: #227C9D;
     color: #fff;
@@ -41,6 +45,10 @@
 
 .left_side button:hover {
     opacity: .8;
+}
+
+.left_side button:disabled {
+    opacity: .5;
 }
 
 /* Right Side */
