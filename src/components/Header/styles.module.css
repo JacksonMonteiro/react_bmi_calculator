@@ -2,3 +2,9 @@
     max-width: 900px;
     margin: 40px auto;
 }
+
+@media only screen and (max-width: 768px) {
+    .headerContainer {
+        padding: 0 20px;
+    }
+}

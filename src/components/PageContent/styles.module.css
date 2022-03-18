@@ -91,3 +91,30 @@
 .rightArrow:hover {
     opacity: .9;
 }
+
+@media only screen and (max-width: 768px) {
+    .left_side {
+        margin-right: 0;
+    }   
+
+    .right_side {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .rightArrow {
+        margin-left: 0;
+        margin-top: 0;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .right_side .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .right_side .grid {
+        margin-bottom: 30px;
+    }
+}
