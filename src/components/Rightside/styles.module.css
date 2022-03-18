@@ -1,4 +1,13 @@
 .right_side {
     margin-left: 40px;
     flex: 1;
+    display: flex;
 }
+    
+.right_side .grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
