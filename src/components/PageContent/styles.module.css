@@ -1,3 +1,4 @@
+/* Left side */
 .left_side {
     margin-right: 40px;
     flex: 1;
@@ -40,4 +41,45 @@
 
 .left_side button:hover {
     opacity: .8;
+}
+
+/* Right Side */
+
+.right_side {
+    margin-left: 40px;
+    flex: 1;
+    display: flex;
+}
+    
+.right_side .grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Big Item Grid */
+.rightBig {
+    flex: 1;
+    display: flex;   
+    
+}
+
+.rightArrow {
+    position: absolute;
+    background-color: #227c9d;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: -35px;
+    margin-top: 145px;
+    transition: all ease .3s;
+}
+
+.rightArrow:hover {
+    opacity: .9;
 }
